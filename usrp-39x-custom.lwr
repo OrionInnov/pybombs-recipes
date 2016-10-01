@@ -1,4 +1,4 @@
-# UHD 3.9.X (LTS) with custom GNURadio and UHD
+# UHD 3.9.X (LTS) with custom GNURadio
 inherit: prefix 
 config:
     packages:
@@ -7,9 +7,6 @@ config:
             forcebuild: True
         gnuradio-fzliu:
             forcebuild: True
-        uhd-fpga:
-            gitbranch: UHD-3.9.LTS
 depends:
 - gnuradio-fzliu
 - uhd-fzliu
-- uhd-fpga
