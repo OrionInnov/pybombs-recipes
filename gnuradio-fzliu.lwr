@@ -40,11 +40,6 @@ depends:
 - python-zmq
 description: Free and open source toolkit for software defined radio
 category: common
-satisfy:
-  deb: gnuradio-dev
-  pacman: gnuradio
-  port: gnuradio
-  portage: net-wireless/gnuradio
 source: git+https://github.com/fzliu/gnuradio.git
 gitbranch: master
 gitargs: --recursive

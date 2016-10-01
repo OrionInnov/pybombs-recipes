@@ -25,12 +25,6 @@ depends:
   - doxygen
   - mako
 description: USRP hardware driver
-satisfy:
-  deb: uhd-host && libuhd-dev
-  pkgconfig: uhd
-  pacman: libuhd
-  port: uhd
-  portage: net-wireless/uhd
 source: git+https://github.com/fzliu/uhd.git
 gitbranch: master
 inherit: cmake
