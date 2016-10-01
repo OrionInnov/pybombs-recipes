@@ -1,4 +1,4 @@
-# fzliu-pybombs
+# pybombs-recipes
 
 Custom PyBOMBS recipes.
 
