@@ -2,11 +2,11 @@
 inherit: prefix 
 config:
     packages:
-        uhd-fzliu:
+        uhd-sail:
             gitbranch: UHD-3.9.LTS
             forcebuild: True
-        gnuradio-fzliu:
+        gnuradio-sail:
             forcebuild: True
 depends:
-- gnuradio-fzliu
-- uhd-fzliu
+- gnuradio-sail
+- uhd-sail

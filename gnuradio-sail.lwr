@@ -23,7 +23,7 @@ depends:
 - cppunit
 - swig
 - gsl
-- uhd-fzliu
+- uhd-sail
 - alsa
 - cheetah
 - wxpython
@@ -40,7 +40,7 @@ depends:
 - python-zmq
 description: Free and open source toolkit for software defined radio
 category: common
-source: git+https://github.com/fzliu/gnuradio.git
+source: git+https://github.com/SAiLLabs/gnuradio.git
 gitbranch: master
 gitargs: --recursive
 vars:

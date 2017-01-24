@@ -25,7 +25,7 @@ depends:
   - doxygen
   - mako
 description: USRP hardware driver
-source: git+https://github.com/fzliu/uhd.git
+source: git+https://github.com/SAiLLabs/uhd.git
 gitbranch: master
 inherit: cmake
 configuredir: host/build
